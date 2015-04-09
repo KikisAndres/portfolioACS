@@ -1,0 +1,87 @@
+
+body {
+	background: #373B44;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	@font-family: "Raleway" , san-serif;
+}
+
+/*
+======== Paleta de colores =========
+Cyan Clouds  73C8A9
+
+morning light    DEE1B6
+
+Soft  E1B866
+
+Orange Cloudsby   BD5532
+
+lowlight   373B44
+
+
+
+
+
+*/
+
+
+
+ul {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+li {
+	padding-left: 5px;
+}
+
+nav {
+	margin: 5px;
+	padding: 8px;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 5px;
+}
+.navigator {
+	display: inline-block;
+	text-align: end;
+	list-style: none;
+}
+
+.navigator a {
+	text-decoration: none;
+	color: #DEE1B6;
+}
+
+.navigator li{
+	border: 2px solid #BD5532;
+	padding: 2%;
+}
+
+
+#content{
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+.contact-items {
+	color: #DEE1B6;
+	display: -webkit-box;
+	list-style: none;
+}
+
+.three-columns{
+	overflow: hidden;
+	margin-left: 40px;
+	border: 1px solid #BD5532;
+	width: 30%;
+	margin: 0% 1% 0% 1%;
+}
+
+#home {
+	padding-top: 5%;
+}

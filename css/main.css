@@ -1,0 +1,52 @@
+
+*,
+*:before,
+*,:after {
+  box-sizing: inherit;
+}  
+
+.top-info {
+	background: url(../img/img-3.jpg) no-repeat no-repeat center;
+	background-size: 100%;
+	height: 794px;
+} 
+
+.container {
+	background: url(../img/img-3.jpg) no-repeat no-repeat center;
+	
+}
+
+
+.icon {
+	float: left;
+	width: 20%;
+}
+.content {
+	max-width: 960px;
+	margin: 0 auto;
+}
+.navigator {
+	background: #cccccc;
+	float: right;
+  width: 75%;
+  list-style: none;
+
+}
+.navigator a {
+	text-decoration: none;
+
+}
+.navigator li {
+	padding: 2%;
+	display: inline-block;
+	list-style: none;
+}  
+.intro {
+	color: #fff;
+	padding: 5%;
+}
+
+ul {
+	margin: 0%
+}
+.navigator li
