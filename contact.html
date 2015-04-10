@@ -1,49 +1,54 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<title>Portafolio Andres Castro S</title>
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/home.css">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-</head>
-<body>
-	<div class="top-info" id="content">
-		<nav>
-			<ul class="navigator">
-				<li><a href="home.html">HOME</a></li>
-				<li><a href="portfolio.html">PORTAFOLIO</a></li>
-				<li><a href="about.html">ABOUT</a></li>
-				<li><a href="contact.html">CONTACT</a></li>
-			</ul>
-		</nav>
-		<header id="home">
-			<h1>Andrés Javier Castro Sanchez</h1>
-			<img src="img/icon-andres.png">
-			<ul class="contact-items">
-				<li>
-					<h2>Contacto</h2>
-					<dl>
-						<dt><em>Email</em> (Correo Electr&oacute;nico) </dt>
-						<dd><strong>kikisandres@gmail.com</strong></dd>
-						<br>
-						<dt><em>Tel&eacute;fono Celular</em></dt>
-						<dd> +(506) 7209 - 5882 </dd>
-						<br>
-						<dt><em>Tel&eacute;fono Hogar</em></dt>
-						<dd> 2291-5714 </dd>
-					</dl>
-				</li>
-				<li>
-					<h2>Experiencia</h2>
-					<ol>
-						<li>HTML 5</li>
-						<li>Css</li>
-						<li>JavaScript</li>
-					</ol>
-				</li>
-			</ul>
-		</header>
-	</div>
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<title>Portafolio Andres Castro S</title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/home.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+	<body>
+		<main>
+			<div class="top-info" id="content">
+				<nav>
+					<ul class="navigator">
+						<li><a href="home.html">HOME</a></li>
+						<li><a href="portfolio.html">PORTAFOLIO</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+					</ul>
+				</nav>
+				<header id="home">
+					<h2>Desea trabajar con nuestro equipo</h2>
+					<div class="form-items">
+						<h2>Contactanos</h2>
+						<div class="row">
+							<div class="form-columns">
+								<form class="form-contact">
+									<input type="text" id="name" class="input-contact" name="name" value="" placeholder="Nombre y apellido" />
+									<input type="tel" id="telephone" class="input-contact" name="telephone" value="" placeholder="Número de telefono" />
+									<input type="email" id="email" class="input-contact" name="email" value="" placeholder="Correo electronico" />
+									<textarea class="text-contact" placeholder="Escribe tu mensaje..."></textarea>
+									<input type="submit" class="btn btn-submit" value="Contactar" />
+								</form>
+							</div>
+							<div class="form-columns">
+								<p class="contact-info">Correo Electr&oacute;nico</p>
+								<p class="contact-info"><strong>kikisandres@gmail.com</strong></p>
+								<br>
+								<p class="contact-info">Tel&eacute;fono Celular</p>
+								<p class="contact-info"><strong>+(506) 7209 - 5882</strong></p>
+								<br>
+								<p class="contact-info">Localidad</p>
+								<p class="contact-info"><strong>San Jose</strong> Rohmoser Pavas </p>
+							</div>
+						</div>
+					</div>
+				</header>
+				<footer>
+					<p>&copy; Castro 2015</p>
+				</footer>
+			</div>
+		</main>
+	</body>
 </html>

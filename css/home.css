@@ -24,6 +24,50 @@ lowlight   373B44
 
 
 */
+* {
+	padding: 0;
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Raleway", "Sinkin Sans", "Times New Roman", Times, Arial, serif;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+h1 {
+	font-size: 36px;
+	font-size: 3.6rem;
+}
+
+h2 {
+	font-size: 30px;
+	font-size: 3rem;
+}
+
+h3 {
+	font-size: 24px;
+	font-size: 2.4rem;
+}
+
+h4 {
+	font-size: 20px;
+	font-size: 2.0rem;
+}
+
+a,
+li,
+h5,
+p,
+span {
+	font-size: 16px;
+	font-size: 1.6rem;
+}
 
 
 
@@ -74,7 +118,7 @@ nav ul li {
 	list-style: none;
 }
 
-.three-columns{
+.proyect-columns{
 	overflow: hidden;
 	margin-left: 40px;
 	border: 1px solid #BD5532;
@@ -82,6 +126,53 @@ nav ul li {
 	margin: 0% 1% 0% 1%;
 }
 
+.experience-list{
+	overflow: hidden;
+	margin-left: 40px;
+	border: 1px solid #BD5532;
+	width: 25%;
+	margin: 0% 1% 0% 1%;
+}
+
 #home {
 	padding-top: 5%;
+}
+.row {
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+.form-columns {
+	width: 50%;
+}
+
+.form-columns,
+.proyect-columns,
+.two-columns {
+	display: inline-block;
+	float: left;
+	padding: 10px 15px;
+}
+
+
+.input-contact {
+  background: #FAFAFA;
+  border: none;
+  color: #5A5A5A;
+  display: block;
+  height: 40px;
+  margin-bottom: 15px;
+  padding-left: 8px;
+  width: 100%;
+}
+
+.text-contact {
+	background: #FAFAFA;
+	border: none;
+	color: #5A5A5A;
+	display: block;
+	height: 142px;
+	margin-bottom: 15px;
+	resize: none;
+	padding: 8px 10px;
+	width: 100%;
 }
