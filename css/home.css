@@ -1,11 +1,4 @@
 
-body {
-	background: #373B44;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: 100% 100%;
-	@font-family: "Raleway" , san-serif;
-}
 
 /*
 ======== Paleta de colores =========
@@ -20,95 +13,30 @@ Orange Cloudsby   BD5532
 lowlight   373B44
 
 
-
-
-
 */
-* {
-	padding: 0;
-	margin: 0;
+
+.about-items{
+	text-align: center;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-family: "Raleway", "Sinkin Sans", "Times New Roman", Times, Arial, serif;
-	font-weight: 400;
-	margin-bottom: 20px;
-}
-
-h1 {
-	font-size: 36px;
-	font-size: 3.6rem;
-}
-
-h2 {
-	font-size: 30px;
-	font-size: 3rem;
-}
-
-h3 {
-	font-size: 24px;
-	font-size: 2.4rem;
-}
-
-h4 {
-	font-size: 20px;
-	font-size: 2.0rem;
-}
-
-a,
-li,
-h5,
-p,
-span {
-	font-size: 16px;
-	font-size: 1.6rem;
-}
-
-
-
-ul {
-	margin: 0;
-	padding: 0;
-	width: 100%;
-}
-
-li {
-	padding-left: 5px;
-}
-
-nav {
-	margin: 5px;
-	padding: 8px;
-}
-
-nav ul li {
-	display: inline-block;
-	margin: 5px;
-}
-.navigator {
-	display: inline-block;
-	text-align: end;
+.navigator-list {
+	text-align: center;
 	list-style: none;
 }
 
-.navigator a {
-	text-decoration: none;
+.navigator-list a {
+	
 	color: #DEE1B6;
 }
 
-.navigator li{
+.navigator-list li{
 	border: 2px solid #BD5532;
 	padding: 2%;
 }
 
 
 #content{
-	max-width: 1080px;
+	width: 1080px;
+	max-width: 90%;
 	margin: 0 auto;
 }
 
@@ -118,7 +46,7 @@ nav ul li {
 	list-style: none;
 }
 
-.proyect-columns{
+.project-columns{
 	overflow: hidden;
 	margin-left: 40px;
 	border: 1px solid #BD5532;
@@ -126,7 +54,7 @@ nav ul li {
 	margin: 0% 1% 0% 1%;
 }
 
-.experience-list{
+.social-network-list {
 	overflow: hidden;
 	margin-left: 40px;
 	border: 1px solid #BD5532;
@@ -134,9 +62,6 @@ nav ul li {
 	margin: 0% 1% 0% 1%;
 }
 
-#home {
-	padding-top: 5%;
-}
 .row {
 	overflow: hidden;
 	margin-bottom: 40px;
@@ -146,11 +71,15 @@ nav ul li {
 }
 
 .form-columns,
-.proyect-columns,
-.two-columns {
+.project-columns {
 	display: inline-block;
 	float: left;
 	padding: 10px 15px;
+}
+
+.project-balcony {
+	margin-top: 10%;
+	margin-bottom: 10%;
 }
 
 

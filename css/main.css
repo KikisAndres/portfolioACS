@@ -15,7 +15,7 @@
 	background: url(../img/img-3.jpg) no-repeat no-repeat center;
 	
 }
-
+ 
 
 .icon {
 	float: left;
@@ -25,18 +25,18 @@
 	max-width: 960px;
 	margin: 0 auto;
 }
-.navigator {
+.navigator-list {
 	background: #cccccc;
 	float: right;
   width: 75%;
   list-style: none;
 
 }
-.navigator a {
+.navigator-list a {
 	text-decoration: none;
 
 }
-.navigator li {
+.navigator-list li {
 	padding: 2%;
 	display: inline-block;
 	list-style: none;
@@ -49,4 +49,7 @@
 ul {
 	margin: 0%
 }
-.navigator li
+
+.project-balcony {
+	margin-top: 10%;
+}

@@ -4,6 +4,11 @@
 	box-sizing: inherit;
 }
 
+* {
+	padding: 0;
+	margin: 0;
+}
+
 a {
 	text-decoration: none;
 }
@@ -11,6 +16,14 @@ a {
 body {
 	font-family: "Raleway" , "Times New Roman", Times, Arial, serif;
 	color: #DEE1B6;
+}
+
+body {
+	background: #373B44;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	@font-family: "Raleway" , san-serif;
 }
 
 html {
@@ -35,6 +48,8 @@ h6 {
 	margin-bottom: 20px;
 }
 
+
+
 h1 {
 	font-size: 36px;
 	font-size: 3.6rem;
@@ -55,6 +70,11 @@ h4 {
 	font-size: 2.0rem;
 }
 
+h6 {
+	font-size: 12px;
+	font-size: 1.2rem;
+}
+
 a,
 li,
 h5,
@@ -64,13 +84,27 @@ span {
 	font-size: 1.6rem;
 }
 
-h6 {
-	font-size: 12px;
-	font-size: 1.2rem;
+em {
+	font-size: larger;
 }
 
-.three-columns {
+li {
 	display: inline-block;
-	float: left;
-	padding: 10px 15px;
+	margin: 3%;
+}
+
+nav {
+	margin: 5px;
+	padding: 8px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+
+ol {
+	display: -webkit-inline-box;
 }
