@@ -101,6 +101,12 @@ ol {
 	text-align: center;
 }
 
+.bar-footer-item {
+	background: $orange;
+	position: relative;
+	width: 100%;
+}
+
 .contact-items {
 	color: $light;
 	display: -webkit-box;
@@ -154,12 +160,17 @@ ol {
 	border: 2px solid $light;
 }
 
-.project-columns{
+.project-columns {
 	border: 1px solid $orange;
 	display: inline-block;
 	overflow: hidden;
 	margin: 0% 1% 0% 1% ;
 	width: 30% ;
+}
+
+.project-image {
+	height: $gallery-size;
+	width: $gallery-size;
 }
 
 .row {

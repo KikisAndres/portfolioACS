@@ -69,6 +69,11 @@ ol {
 .about-items {
   text-align: center; }
 
+.bar-footer-item {
+  background: #BD5532;
+  position: relative;
+  width: 100%; }
+
 .contact-items {
   color: #DEE1B6;
   display: -webkit-box;
@@ -118,6 +123,10 @@ ol {
   overflow: hidden;
   margin: 0% 1% 0% 1%;
   width: 30%; }
+
+.project-image {
+  height: 50%;
+  width: 50%; }
 
 .row {
   overflow: hidden;
