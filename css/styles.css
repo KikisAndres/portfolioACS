@@ -71,6 +71,7 @@ ol {
 
 .bar-footer-item {
   background: #BD5532;
+  display: inline-block;
   position: relative;
   width: 100%; }
 
@@ -81,8 +82,9 @@ ol {
 
 .form-columns {
   display: inline-block;
+  float: left;
   padding: 10px 15px;
-  width: 50%; }
+  width: 100%; }
 
 .form-items {
   margin-top: 5%; }
@@ -121,12 +123,14 @@ ol {
   border: 1px solid #BD5532;
   display: inline-block;
   overflow: hidden;
-  margin: 0% 1% 0% 1%;
-  width: 30%; }
+  text-align: center;
+  margin: 0% 1% 10% 1%;
+  padding: 20px;
+  width: 100%; }
 
 .project-image {
-  height: 50%;
-  width: 50%; }
+  height: 100%;
+  width: 100%; }
 
 .row {
   overflow: hidden;
@@ -137,14 +141,14 @@ ol {
   margin-left: 40px;
   border: 1px solid #BD5532;
   width: 25%;
-  margin: 0% 1% 0% 1%; }
+  margin: 0% 1% 10% 1%; }
 
 .submit-delivery {
   background-color: #373B44;
   border: 2px solid #BD5532;
   color: #DEE1B6;
   padding: 2%;
-  width: 100px;
+  width: 20%;
   font-size: 12pt; }
 
 .submit-delivery:hover {
@@ -152,7 +156,7 @@ ol {
   border: 2px solid #DEE1B6;
   color: #DEE1B6;
   padding: 2%;
-  width: 100px; }
+  width: 20%; }
 
 .text-contact {
   background: #FAFAFA;
