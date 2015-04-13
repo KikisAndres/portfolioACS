@@ -15,6 +15,7 @@ lowlight   373B44
 
 */
 
+
 .about-items{
 	text-align: center;
 }
@@ -24,13 +25,18 @@ lowlight   373B44
 }
 
 .navigator-list a {
-	
 	color: #DEE1B6;
 }
 
 .navigator-list li{
 	border: 2px solid #BD5532;
 	padding: 2%;
+	background: #373B44;
+}
+
+.navigator-list li:hover {
+	background-color: #BD5532;
+	border: 2px solid #DEE1B6;
 }
 
 
@@ -61,13 +67,32 @@ lowlight   373B44
 	width: 25%;
 	margin: 0% 1% 0% 1%;
 }
+.submit-delivery {
+	background-color: #373B44;
+	border: 2px solid #BD5532;
+	color: #DEE1B6;
+	padding: 2%;
+	width: 100px;
+	font-size: 12pt;
+}
 
+.submit-delivery:hover {
+	background-color: #BD5532;
+	border: 2px solid #DEE1B6;
+	color: #DEE1B6;
+	padding: 2%;
+	width: 100px;
+}
 .row {
 	overflow: hidden;
 	margin-bottom: 40px;
 }
 .form-columns {
 	width: 50%;
+}
+
+.form-items {
+	margin-top: 5%;
 }
 
 .form-columns,
