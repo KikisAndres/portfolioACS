@@ -80,6 +80,13 @@ ol {
   display: -webkit-box;
   list-style: none; }
 
+.experience-item {
+  width: 50%; }
+
+.experience-galery-bar {
+  display: inline-block;
+  list-style: none; }
+
 .form-columns {
   display: inline-block;
   float: left;

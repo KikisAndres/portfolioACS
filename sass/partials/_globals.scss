@@ -114,6 +114,15 @@ ol {
 	list-style: none;
 }
 
+.experience-item {
+	width: $gallery-size;
+}
+
+.experience-galery-bar {
+	display: inline-block;
+	list-style: none;
+}
+
 .form-columns {
 	display: inline-block;
 	float: left;
